@@ -66,27 +66,3 @@ Feature Branches are used for regular development....master or main branch
 Once a feature is ready, it is merged into the Master Branch after review and testing.....feature branch
 If an urgent problem occurs in the live app, a Hotfix Branch is created, fixed, and merged back into the Master Branch.....hot fix branch
 
-
-when we want to undo 
-undoing git
-
-we can give git reset with or without file_nmae
-
-git reset
-
-the above command is used to do undo after git add 
-
-to do undo after git commit we use command 
-
-git reset HEAD~1
-
-it undo's last commit 
-
-
-forking in git
-Example:
-You find a cool project on GitHub.
-You fork it to your account, which creates a copy of that project.
-You make changes, add new features, or fix bugs.
-Once you're happy with your changes, you can ask the original project owners if they want to include your changes by creating a pull request.
-
