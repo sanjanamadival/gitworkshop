@@ -59,3 +59,10 @@ see now whwne i add few things again i should save it na and push so
 git add .
 git commit -m"added changes"
 git push origin main
+
+
+braches
+Feature Branches are used for regular development....master or main branch
+Once a feature is ready, it is merged into the Master Branch after review and testing.....feature branch
+If an urgent problem occurs in the live app, a Hotfix Branch is created, fixed, and merged back into the Master Branch.....hot fix branch
+
