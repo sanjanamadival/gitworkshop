@@ -28,3 +28,34 @@ so to do this we hav eto generatte the ssh key
 ssh-keygen -t rsa -b 4096 -C"bsanjanamdival@gmail.com"
 
 -t ..type of encryption
+
+in git bash 
+HP@sanjana MINGW64 ~/Desktop/Git/gitworkshop (main)
+$ ls | grep testkey
+testkey
+testkey.pub
+
+HP@sanjana MINGW64 ~/Desktop/Git/gitworkshop (main)
+$ ssh-add ./testkey
+Identity added: ./testkey (bsanjanamdival@gmail.com)
+
+HP@sanjana MINGW64 ~/Desktop/Git/gitworkshop (main)
+$ ssh-add -l
+4096 SHA256:NQK/KJwZ2IWWV4/Afqp+uUNvRYlE6KxXD3MS8UlDEK4 bsanjanamdival@gmail.com (RSA)
+
+HP@sanjana MINGW64 ~/Desktop/Git/gitworkshop (main)
+$ ssh -T git@github.com
+Hi sanjanamadival! You've successfully authenticated, but GitHub does not provide shell access.
+
+HP@sanjana MINGW64 ~/Desktop/Git/gitworkshop (main)
+$
+
+
+now in terminal to push 
+git push origin main
+so here main is the branch name
+
+see now whwne i add few things again i should save it na and push so 
+git add .
+git commit -m"added changes"
+git push origin main
