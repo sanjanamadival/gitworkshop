@@ -75,3 +75,22 @@ git checkout to switch the branch and -b to create a branch and thengive branch 
 
 if u want to switch back then just give
 git checkout main
+
+now currently i m in main branch 
+here i m checking this with feature branch 
+git diff 
+to check the chagnes made between 2 files 
+
+now push this new branch 
+
+to merge 2 branch 
+git merge feature-readme-instruction 
+general syntX 
+git merge branch_name
+
+to delete the merged branch 
+git branch -d branch_name
+
+
+git conflict ..happpens when multiple peoples try to do changes 
+
