@@ -66,3 +66,12 @@ Feature Branches are used for regular development....master or main branch
 Once a feature is ready, it is merged into the Master Branch after review and testing.....feature branch
 If an urgent problem occurs in the live app, a Hotfix Branch is created, fixed, and merged back into the Master Branch.....hot fix branch
 
+
+
+git branch 
+git checkout -b feature-readme-instruction
+git checkout to switch the branch and -b to create a branch and thengive branch name 
+
+
+if u want to switch back then just give
+git checkout main
